@@ -1,0 +1,57 @@
+.dashboard {
+  max-width: 1110px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 255px));
+  gap: 30px;
+}
+
+/* @media screen and (max-width: 1110px) {
+  .dashboard {
+    max-width: 800px;
+  }
+
+  .dashboard__user {
+    background: red;
+    width: 100%;
+    height: 240px;
+    grid-column: 1 / -1;
+  }
+} */
+/* 
+@media screen and (max-width: 540px) {
+  .dashboard {
+    max-width: 425px;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 255px));
+  }
+
+  .dashboard__user {
+    background: red;
+    width: 100%;
+    height: 240px;
+    grid-column: 1 / -1;
+  }
+} */
+
+.dashboard__user {
+  background: red;
+  width: 100%;
+  height: 100%;
+  grid-row: 1 / 3;
+}
+
+.dashboard__card {
+  background: blue;
+  height: 244px;
+  width: 100%;
+}
+
+.dashboard__card:nth-of-type(6) {
+  background-color: violet;
+  grid-column: -3 / -2;
+}
+
+.dashboard__card:nth-of-type(7) {
+  background-color: green;
+  grid-column: -2 / -1;
+}
