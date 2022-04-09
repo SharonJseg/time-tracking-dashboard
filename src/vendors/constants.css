@@ -1,0 +1,51 @@
+:root {
+  /* Font families */
+  --ff-base: 'Rubik', sans-serif;
+
+  /* Font Sizes */
+  --fs-400: 0.9375rem;
+  --fs-500: 1.125rem;
+  --fs-600: 2.5rem;
+  --fs-700: 3.5rem;
+
+  /* Font weights */
+  --fw-thin: 300;
+  --fw-base: 400;
+  --fw-bold: 500;
+
+  /* Colors */
+  --clr-white: #fff;
+  --clr-very-dark-blue: #0e1323;
+  --clr-dark-blue: #1c1f4a;
+  --clr-light-blue: #7078c9;
+  --clr-pale-blue: #bdc1ff;
+  --clr-blue: #5747ea;
+}
+
+/* Typography */
+
+.text-s {
+  font-weight: var(--fw-base);
+  font-size: var(--fs-400);
+  line-height: 1.18;
+}
+
+.text-m {
+  font-weight: var(--fw-base);
+  font-size: var(--fs-500);
+}
+
+.heading-s {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-500);
+}
+
+.heading-m {
+  font-weight: var(--fw-thin);
+  font-size: var(--fs-600);
+}
+
+.heading-l {
+  font-weight: var(--fw-thin);
+  font-size: var(--fs-700);
+}
