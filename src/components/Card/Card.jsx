@@ -14,7 +14,16 @@ const Card = ({ title, time, timeframes, color }) => {
       <div className='card__body'>
         <div className='card__type-wrapper'>
           <h3 className='card__type heading-s'>{title}</h3>
-          <img className='card__options' src={options} alt='' />
+          <div className='card__options-wrapper'>
+            <svg
+              className='card__options'
+              width='21'
+              height='5'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path d='M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z' />
+            </svg>
+          </div>
         </div>
         {time === 'Daily' && (
           <div className='card__time-wrapper'>
