@@ -1,12 +1,12 @@
 import data from './data.json';
 
 const COLORS = [
-  { title: 'Work', color: 'hsl(15, 100%, 70%)' },
-  { title: 'Play', color: 'hsl(195, 74%, 62%)' },
-  { title: 'Study', color: 'hsl(348, 100%, 68%)' },
-  { title: 'Exercise', color: 'hsl(145, 58%, 55%)' },
-  { title: 'Social', color: 'hsl(264, 64%, 52%)' },
-  { title: 'Self Care', color: 'hsl(43, 84%, 65%)' },
+  { title: 'Work', color: 'orange' },
+  { title: 'Play', color: 'blue' },
+  { title: 'Study', color: 'red' },
+  { title: 'Exercise', color: 'green' },
+  { title: 'Social', color: 'purple' },
+  { title: 'Self Care', color: 'yellow' },
 ];
 
 export const CARDS = data.map((el, i) => {
