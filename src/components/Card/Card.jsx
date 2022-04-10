@@ -5,7 +5,6 @@ import options from '../../images/icon-ellipsis.svg';
 import Icon from '../Icon/Icon';
 
 const Card = ({ title, time, timeframes, color }) => {
-  console.log(title);
   return (
     <div className={`card ${color}`}>
       <div className='card__header'>

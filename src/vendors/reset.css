@@ -52,9 +52,6 @@ body {
   background: var(--clr-very-dark-blue);
   font-family: var(--ff-base);
   color: var(--clr-white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   min-height: 100vh;
   line-height: 1.185;
