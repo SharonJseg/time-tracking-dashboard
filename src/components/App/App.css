@@ -50,6 +50,7 @@
 @media screen and (max-width: 840px) {
   .dashboard {
     width: min(95%, 800px);
+    margin: 81px 0;
   }
 
   .dashboard__user {
@@ -80,7 +81,6 @@
 
 @media screen and (max-width: 580px) {
   .dashboard {
-    margin: 81px 0;
     width: min(90%, 800px);
     grid-template-columns: 1fr;
     grid-template-rows: auto;

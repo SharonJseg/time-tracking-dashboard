@@ -2,18 +2,18 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  scrollbar-color: var(--clr-gold) #f3ede7;
+  scrollbar-color: var(--clr-blue) var(--clr-pale-blue);
   scrollbar-width: thin;
 }
 
 ::-webkit-scrollbar {
   height: 12px;
   width: 10px;
-  background: #f3ede7;
+  background: var(--clr-pale-blue);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--clr-gold);
+  background: var(--clr-blue);
 }
 
 ::-webkit-scrollbar-corner {
