@@ -47,10 +47,15 @@
   padding-bottom: 80px;
 }
 
+@media screen and (max-width: 1110px) {
+  .dashboard {
+    margin: 81px 0;
+  }
+}
+
 @media screen and (max-width: 840px) {
   .dashboard {
     width: min(95%, 800px);
-    margin: 81px 0;
   }
 
   .dashboard__user {
